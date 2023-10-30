@@ -134,9 +134,9 @@ export default function TeamPage() {
     },
   },
   {
-    memberImage: '/images/saha.jpg',
-    memberName: 'Satya Harika',
-    memberDesignation: 'Private Equity Associate',
+    memberImage: '/images/karthik.jpg',
+    memberName: 'Karthikeya Reddy Chilla',
+    memberDesignation: 'Client Relation Manager',
     memberSocial: {
       
     },
