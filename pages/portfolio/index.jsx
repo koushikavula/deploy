@@ -14,75 +14,83 @@ export default function PortfolioPage() {
   const [itemShow, setItemShow] = useState(7);
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'VCurve Modulars',
+      subtitle: '',
       href: '',
-      src: '/images/portfolio_4.jpeg',
-      category: 'ui_ux_design',
+      src: '/images/portfolio/2.jpg',
+      category: 'marketing',
+      
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Shathabdhi Homes',
+      subtitle: '',
       href: '',
-      src: '/images/portfolio_5.jpeg',
-      category: 'logo_design',
+      src: '/images/portfolio/3.jpg',
+      category: 'marketing',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_6.jpeg',
+      title: 'Shathabdhi Organics',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/7.jpg',
+      category: 'marketing',
+    },
+    {
+      title: 'Vristha Cafe',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/13.jpg',
+      category: 'branding',
+    },
+    {
+      title: 'Phensta',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/8.jpg',
+      category: 'marketing',
+    },
+    {
+      title: 'BUKLUP',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/15.jpeg',
+      category: 'branding',
+    },
+    {
+      title: 'Destination Cafe',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/1.jpg',
+      category: 'branding',
+    },
+    {
+      title: 'VCURVE',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/16.jpg',
       category: 'web_design',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_7.jpeg',
-      category: 'mobile_apps',
+      title: 'Breeze Rehabilitation Center',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/6.jpg',
+      category: 'marketing',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_8.jpeg',
-      category: 'ui_ux_design',
+      title: 'Sree Makeover',
+      subtitle: '',
+      href: '',
+      src: '/images/portfolio/17.jpeg',
+      category: 'branding',
     },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_9.jpeg',
-      category: 'web_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_10.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_4.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_5.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_6.jpeg',
-      category: 'web_design',
-    },
+
+
+
+
+
+
+    
   ];
   const categoryMenu = [
     {
@@ -98,10 +106,7 @@ export default function PortfolioPage() {
       title: 'Web Design',
       category: 'web_design',
     },
-    {
-      title: 'Social Media',
-      category:'social_media',
-    },  
+    
   ];
   return (
     <>
